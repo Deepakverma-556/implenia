@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Header from "./common/Header";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <>
+        <Header />
+          <div className="bg-[url(/assets/images/webp/hero-bg.webp)] bg-no-repeat bg-cover pt-[197px] pb-[168px]">
+              
+      </div>
+    </>
+  );
+};
 
-export default Hero
+export default Hero;
