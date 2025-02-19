@@ -6,3 +6,16 @@
 *{
   font-family: "Source Sans 3", serif;
 }
+
+.robot{
+  animation: robot-animate 1s 1;
+}
+
+@keyframes robot-animate {
+  from{
+    transform: translateX(-300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
