@@ -8,14 +8,14 @@ const Header = () => {
       document.body.style.overflow = open ? "hidden" : "auto";
     }, [open]);
   return (
-    <div className="max-w-[1172px] flex items-center pt-[18px] pb-[19px] justify-between bg-white px-4 mx-auto">
+    <div className="max-w-[1172px] flex items-center pt-[18px] pb-[19px] max-sm:py-3 justify-between bg-white px-4 mx-auto">
       <a href="/">
         <Image
           src={"/assets/images/webp/logo.webp"}
           width={93}
           height={93}
           alt="logo"
-          className="max-lg:size-16"
+          className="max-lg:size-16 max-sm:size-12"
         />
       </a>
       <ul className="gap-[38px] flex items-center max-sm:hidden">

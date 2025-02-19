@@ -1,6 +1,6 @@
 import React from 'react'
 interface headingProps {
-  myClass: string;
+  myClass?: string;
   text: string;
 }
 const Heading = ({ myClass, text }: headingProps) => {
