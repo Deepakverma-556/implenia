@@ -6,7 +6,7 @@ interface descriptionProps {
 const Description = ({ myClass, text }: descriptionProps) => {
   return (
     <p
-      className={`${myClass} font-light text-[21px] leading-[27px] text-black`}
+      className={`${myClass} font-light text-[21px] max-md:text-lg max-sm:text-base leading-[27px] text-black`}
     >
       {text}
     </p>

@@ -20,7 +20,7 @@ const Hero = () => {
             </h1>
             <CustomButton
               text="Bring your idea to life!"
-              myClass="!text-white px-[51.36px] py-[21px]"
+              myClass="!text-white px-[51.36px] py-[21px] hover:bg-black hover:border-black"
             />
           </div>
           <Image
