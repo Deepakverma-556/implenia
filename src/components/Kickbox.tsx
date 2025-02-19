@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import Heading from './common/Heading'
-import Description from './common/Description'
-import { KICKBOX_LIST } from '@/utils/helper';
-import CustomButton from './common/CustomButton';
+import React, { useEffect, useState } from "react";
+import Heading from "./common/Heading";
+import Description from "./common/Description";
+import { KICKBOX_LIST } from "@/utils/helper";
+import CustomButton from "./common/CustomButton";
 
 const Kickbox = () => {
   return (
@@ -20,7 +20,10 @@ const Kickbox = () => {
                 <p className="text-[80px] max-lg:text-6xl max-md:text-4xl max-sm:text-3xl leading-[100.56px] max-md:!leading-7 text-darkYellow">
                   {obj.title}
                 </p>
-                <Description myClass="!font-bold !leading-[21px] max-md:!font-semibold max-lg:!text-lg max-sm:!text-xs" text={obj.description} />
+                <Description
+                  myClass="!font-bold !leading-[21px] max-md:!font-semibold max-lg:!text-lg max-sm:!text-xs"
+                  text={obj.description}
+                />
               </div>
             ))}
           </div>
@@ -32,6 +35,6 @@ const Kickbox = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Kickbox
+export default Kickbox;

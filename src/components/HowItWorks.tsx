@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Heading from "./common/Heading";
-import Image from "next/image";
 
 const HowItWorks = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -25,17 +24,10 @@ const HowItWorks = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           ) : (
-            // <img
-            //   src="/assets/images/webp/welcome.webp"
-            //   alt="welcome"
-            //   className="w-full h-full object-cover"
-            // />
-            <Image
-              src={"/assets/images/webp/welcome.webp"}
-              width={1064}
-              height={580}
+            <img
+              src="/assets/images/webp/welcome.webp"
               alt="welcome"
-              className="mx-auto h-full"
+              className="w-full h-full object-cover"
             />
           )}
         </div>

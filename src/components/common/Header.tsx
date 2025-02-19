@@ -3,14 +3,12 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 const Header = () => {
-    const [open, setOpen] = useState(false);
-    useEffect(() => {
-      document.body.style.overflow = open ? "hidden" : "auto";
-    }, [open]);
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "auto";
+  }, [open]);
   return (
-    <div
-      className="shadow-[0px_4px_8px_0px] shadow-lightBlack"
-    >
+    <div className="shadow-[0px_4px_8px_0px] shadow-lightBlack">
       <div className="max-w-[1172px] flex items-center pt-[18px] pb-[19px] max-sm:py-3 justify-between bg-white px-4 mx-auto">
         <a href="/">
           <Image
@@ -61,7 +59,8 @@ const Header = () => {
           <ul className="gap-5 flex flex-col items-center">
             {HEADER_LIST.map((obj, i) => (
               <li key={i}>
-                <a onClick={()=>setOpen(false)}
+                <a
+                  onClick={() => setOpen(false)}
                   href={obj.link}
                   className="font-bold text-base leading-[20.11px] text-black transition-all duration-300 hover:text-lightYellow"
                 >
