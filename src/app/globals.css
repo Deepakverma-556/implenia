@@ -12,6 +12,10 @@ body {
   font-family: "Source Sans 3", serif;
 }
 
+.custom-shadow {
+  text-shadow: 0px 4px 4px #00000040;
+}
+
 .robot {
   animation: robot-animate 1s 1;
 }

@@ -18,7 +18,7 @@ const Header = () => {
             width={93}
             height={93}
             alt="logo"
-            className="max-lg:size-16 max-sm:size-12"
+            className="max-lg:size-16 max-sm:size-12 pointer-events-none"
           />
         </a>
         <ul className="gap-[38px] flex items-center max-sm:hidden">

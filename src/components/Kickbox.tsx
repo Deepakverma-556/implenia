@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Heading from './common/Heading'
 import Description from './common/Description'
 import { KICKBOX_LIST } from '@/utils/helper';
