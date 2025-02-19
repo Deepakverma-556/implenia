@@ -18,7 +18,7 @@ export default {
       screens: {
         lg: "1025px",
         md:"770px",
-      }
+      },
     },
   },
   plugins: [],

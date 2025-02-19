@@ -3,19 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+* {
   font-family: "Source Sans 3", serif;
 }
 
-.robot{
+.robot {
   animation: robot-animate 1s 1;
 }
 
 @keyframes robot-animate {
-  from{
+  from {
     transform: translateX(-300px);
   }
-  to{
+
+  to {
     transform: translateX(0px);
   }
 }

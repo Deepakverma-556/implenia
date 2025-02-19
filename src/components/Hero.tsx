@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <Header />
       <div className="bg-[url(/assets/images/webp/hero-bg.webp)] bg-no-repeat bg-cover max-lg:bg-center">
-        <div className="max-w-[1440px] mx-auto relative overflow-hidden h-full pt-[197px] pb-[168px] max-md:py-32 max-sm:py-20">
+        <div id="home" className="max-w-[1440px] mx-auto relative overflow-hidden h-full pt-[197px] pb-[168px] max-md:py-32 max-sm:py-20">
           <div className="max-w-[1172px] px-4 mx-auto relative z-20">
             <Description
               text="Shape the future of Implenia!"
