@@ -1,6 +1,10 @@
 import redKickbox from "../../public/assets/images/png/red-kickbox.png";
 import blueKickbox from "../../public/assets/images/png/blue-kickbox.png";
 import yellowKickbox from "../../public/assets/images/png/yellow-kickbox.png";
+import family from "../../public/assets/images/webp/family.webp";
+import station from "../../public/assets/images/webp/station.webp";
+import tunnel from "../../public/assets/images/webp/tunnel.webp";
+
 export const HEADER_LIST = [
   {
     title: "Home",
@@ -67,3 +71,21 @@ export const KICKBOX_PROCESS_LIST = [
     budget: "Budget: According to funding 20-100% of your working time",
   },
 ];
+
+export const STORIES_LIST = [
+    {
+        image: family,
+        imageAlt: "family",
+        title:"Family Friendly Implenia"
+    },
+    {
+        image: station,
+        imageAlt: "station",
+        title:"Mobile SOS-Station"
+    },
+    {
+        image: tunnel,
+        imageAlt: "tunnel",
+        title:"HPS-EPS Tunnelelement"
+    },
+]

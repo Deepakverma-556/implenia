@@ -11,7 +11,7 @@ const Hero = () => {
         id="home"
         className="bg-[url(/assets/images/webp/hero-bg.webp)] bg-no-repeat bg-cover relative bg-center pt-[197px] pb-[168px] max-md:py-32 max-sm:py-20"
       >
-          <div className="max-w-[1172px] px-4 mx-auto relative z-20">
+          <div className="max-w-[1172px] px-4 mx-auto relative z-20 max-sm:bg-black/20">
             <Description
               text="Shape the future of Implenia!"
               myClass="!font-bold !leading-[21px] !text-white !pb-3 max-sm:!text-lg max-sm:!pb-1 custom-shadow"
@@ -26,10 +26,10 @@ const Hero = () => {
           </div>
           <Image
             src={"/assets/images/webp/robot.webp"}
-            width={400}
-            height={562}
+            width={370}
+            height={400}
             alt="robot"
-            className="absolute -bottom-16 pointer-events-none left-0 z-10 robot max-lg:h-[300px] max-lg:w-[200px] max-sm:h-[200px] max-sm:w-[150px] max-lg:bottom-10"
+            className="absolute -bottom-8 pointer-events-none left-1 z-10 robot max-lg:h-[300px] max-lg:w-[200px] max-sm:h-[200px] max-sm:w-[150px] max-lg:bottom-10"
           />
         </div>
     </>

@@ -4,9 +4,14 @@ import Description from "./common/Description";
 import { KICKBOX_LIST } from "@/utils/helper";
 import CustomButton from "./common/CustomButton";
 
+interface KickboxItem {
+  title: string;
+  description: string;
+}
+
 const Kickbox = () => {
   return (
-    <div className="pt-[134px] pb-[129px] max-md:py-20 max-sm:py-16">
+    <div className="pt-[134px] pb-[129px] max-md:py-20 max-sm:py-12">
       <div className="max-w-[1172px] px-4 mx-auto">
         <Heading text="IMPLENIA KICKBOX" />
         <Description
@@ -14,8 +19,8 @@ const Kickbox = () => {
           text="Since 2019, our Kickbox Intrapreneurship Program has been inspiring employees across all divisions to turn their ideas into impactful solutions. From validating ideas (RedBox) to piloting projects (BlueBox) and driving implementation (GoldBox), Kickbox provides the tools and support to shape the future of Implenia. Become an intrapreneur yourself and bring your idea to life!"
         />
         <div className="flex gap-5 max-sm:gap-7 max-[916px]:flex-wrap pt-5 items-center justify-between">
-          <div className="flex gap-[71px] max-lg:gap-10 max-sm:gap-5">
-            {KICKBOX_LIST.map((obj, i) => (
+          <div className="flex gap-[71px] max-lg:gap-10 max-sm:gap-5 max-md:w-full max-md:justify-between">
+            {KICKBOX_LIST.map((obj:KickboxItem, i:number) => (
               <div className="" key={i}>
                 <p className="text-[80px] max-lg:text-6xl max-md:text-4xl max-sm:text-3xl leading-[100.56px] max-md:!leading-7 text-darkYellow">
                   {obj.title}

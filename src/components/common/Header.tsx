@@ -1,16 +1,26 @@
 import { HEADER_LIST } from "@/utils/helper";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
+
+interface HeaderItem {
+  title: string;
+  link: string;
+}
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [Active, setActive] = useState<number | null>(null);
+  function clickHandler(i: number) {
+    setActive(i);
+  }
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
   return (
     <div className="shadow-[0px_4px_8px_0px] shadow-lightBlack">
       <div className="max-w-[1172px] flex items-center pt-[18px] pb-[19px] max-sm:py-3 justify-between bg-white px-4 mx-auto">
-        <a href="/">
+        <Link href="/">
           <Image
             src={"/assets/images/webp/logo.webp"}
             width={93}
@@ -18,16 +28,19 @@ const Header = () => {
             alt="logo"
             className="max-lg:size-16 max-sm:size-12 pointer-events-none"
           />
-        </a>
+        </Link>
         <ul className="gap-[38px] flex items-center max-sm:hidden">
-          {HEADER_LIST.map((obj, i) => (
+          {HEADER_LIST.map((obj:HeaderItem, i:number) => (
             <li key={i}>
-              <a
+              <Link
+                onClick={() => clickHandler(i)}
                 href={obj.link}
-                className="font-bold text-base leading-[20.11px] text-black transition-all duration-300 hover:text-lightYellow"
+                className={`${
+                  Active === i ? "text-lightYellow" : ""
+                } font-bold text-base leading-[20.11px] text-black transition-all duration-300 hover:text-lightYellow`}
               >
                 {obj.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
@@ -57,15 +70,15 @@ const Header = () => {
           }`}
         >
           <ul className="gap-5 flex flex-col items-center">
-            {HEADER_LIST.map((obj, i) => (
+            {HEADER_LIST.map((obj:HeaderItem, i:number) => (
               <li key={i}>
-                <a
+                <Link
                   onClick={() => setOpen(false)}
                   href={obj.link}
                   className="font-bold text-base leading-[20.11px] text-black transition-all duration-300 hover:text-lightYellow"
                 >
                   {obj.title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

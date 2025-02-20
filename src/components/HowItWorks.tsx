@@ -9,7 +9,7 @@ const HowItWorks = () => {
   };
 
   return (
-    <div className="bg-lightGray pt-32 pb-36 max-md:py-20 max-sm:py-16">
+    <div className="bg-lightGray pt-32 pb-36 max-md:py-20 max-sm:py-12">
       <div className="max-w-[1172px] mx-auto px-4">
         <Heading text="HOW IT WORKS" myClass="pb-16 max-md:pb-10 max-sm:pb-5" />
         <div
