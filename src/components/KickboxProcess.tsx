@@ -60,7 +60,7 @@ const KickboxProcess = () => {
           ))}
         </div>
         <CustomButton
-          myClass="!border-customRed !text-customRed hover:bg-customRed hover:!text-white px-[44.9px] py-[15.5px] mt-[39px] max-sm:mt-7 max-lg:!mx-auto !flex"
+          myClass="!border-customRed !text-customRed hover:bg-customRed hover:!text-white px-[44.9px] py-[15.5px] mt-[39px] max-sm:mt-7 max-lg:!mx-auto !flex lg:ml-7"
           text="Start your RedBox!"
         />
       </div>

@@ -25,18 +25,9 @@ export const HEADER_LIST = [
 ];
 
 export const KICKBOX_LIST = [
-  {
-    title: "+155",
-    description: "Ideas submitted",
-  },
-  {
-    title: "+325",
-    description: "Active Platform users",
-  },
-  {
-    title: "+250",
-    description: "Community Members",
-  },
+  "Ideas submitted",
+  "Active Platform users",
+  "Community Members",
 ];
 
 export const KICKBOX_PROCESS_LIST = [
@@ -73,19 +64,19 @@ export const KICKBOX_PROCESS_LIST = [
 ];
 
 export const STORIES_LIST = [
-    {
-        image: family,
-        imageAlt: "family",
-        title:"Family Friendly Implenia"
-    },
-    {
-        image: station,
-        imageAlt: "station",
-        title:"Mobile SOS-Station"
-    },
-    {
-        image: tunnel,
-        imageAlt: "tunnel",
-        title:"HPS-EPS Tunnelelement"
-    },
-]
+  {
+    image: family,
+    imageAlt: "family",
+    title: "Family Friendly Implenia",
+  },
+  {
+    image: station,
+    imageAlt: "station",
+    title: "Mobile SOS-Station",
+  },
+  {
+    image: tunnel,
+    imageAlt: "tunnel",
+    title: "HPS-EPS Tunnelelement",
+  },
+];

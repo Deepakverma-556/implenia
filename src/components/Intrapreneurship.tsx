@@ -40,7 +40,7 @@ const Intrapreneurship = () => {
           </div>
         </div>
         <CustomButton
-          myClass="!border-customRed !text-customRed hover:bg-customRed hover:!text-white px-[74.18px] py-[15.5px] mt-[39px] max-sm:mt-7 max-md:!mx-auto !flex"
+          myClass="!border-customRed !text-customRed hover:bg-customRed hover:!text-white px-[74.18px] py-[15.5px] mt-[39px] max-sm:mt-7 max-md:!mx-auto !flex lg:ml-12"
           text="More Stories"
         />
       </div>
