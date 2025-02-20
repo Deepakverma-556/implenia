@@ -108,3 +108,42 @@ export const OUR_COMMUNITY_LIST = [
     fullName: "Jens Vollmar",
   },
 ];
+
+export const FAQ_LIST = [
+  {
+    title: "What kind of ideas can I submit?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title: "Can we also start the RedBox as a team?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title:
+      "I have a good idea for the company, but I do not want to work on it myself, can I still submit?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title: "When can I submit my idea?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title: "When do I get my RedBox?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title: "How do I get a BlueBox?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+  {
+    title: "How do I get a GoldBox?",
+    description:
+      "You are free to submit any idea related to Implenia’s business activities, customers or internal processes. Of course we look especially for new and creative ideas and your fresh perspective on the future of construction and real estate.",
+  },
+];

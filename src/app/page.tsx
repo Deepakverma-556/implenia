@@ -1,4 +1,5 @@
 "use client"
+import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Intrapreneurship from "@/components/Intrapreneurship";
@@ -14,7 +15,8 @@ export default function Home() {
       <HowItWorks />
       <KickboxProcess />
       <OurCommunity />
-      <Intrapreneurship/>
+      <Intrapreneurship />
+      <Faq/>
     </>
   );
 }
