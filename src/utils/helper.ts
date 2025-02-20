@@ -4,6 +4,7 @@ import yellowKickbox from "../../public/assets/images/png/yellow-kickbox.png";
 import family from "../../public/assets/images/webp/family.webp";
 import station from "../../public/assets/images/webp/station.webp";
 import tunnel from "../../public/assets/images/webp/tunnel.webp";
+import jens from "../../public/assets/images/webp/jens.webp";
 
 export const HEADER_LIST = [
   {
@@ -78,5 +79,32 @@ export const STORIES_LIST = [
     image: tunnel,
     imageAlt: "tunnel",
     title: "HPS-EPS Tunnelelement",
+  },
+];
+
+export const OUR_COMMUNITY_LIST = [
+  {
+    description:
+      "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+    profileImage: jens,
+    profileImageAlt: "jens",
+    jobPosition: "Head Division Buildings",
+    fullName: "Jens Vollmar",
+  },
+  {
+    description:
+      "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+    profileImage: jens,
+    profileImageAlt: "jens",
+    jobPosition: "Head Division Buildings",
+    fullName: "Jens Vollmar",
+  },
+  {
+    description:
+      "With innovative and efficient solutions we can surprise our customers and increase our chances of success - I experienced this in many projects. Take the time to be courageous and active with new ideas!",
+    profileImage: jens,
+    profileImageAlt: "jens",
+    jobPosition: "Head Division Buildings",
+    fullName: "Jens Vollmar",
   },
 ];

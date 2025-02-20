@@ -13,6 +13,7 @@ export default {
         darkYellow: "#febe32",
         customRed: "#ff132d",
         lightGray: "#f5f5f5",
+        customGray: "#8F9090",
         lightBlack: "#00000040",
         customBlue: "#009FE3",
       },
