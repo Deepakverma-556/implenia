@@ -29,7 +29,7 @@ const Hero = () => {
             width={370}
             height={400}
             alt="robot"
-            className="absolute -bottom-8 pointer-events-none left-1 z-10 robot max-lg:h-[300px] max-lg:w-[200px] max-sm:h-[200px] max-sm:w-[150px] max-lg:bottom-10"
+            className="absolute -bottom-8 pointer-events-none left-0 z-10 robot max-lg:h-[300px] max-lg:w-[200px] max-sm:h-[200px] max-sm:w-[150px] max-lg:bottom-10"
           />
         </div>
     </>
