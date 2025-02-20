@@ -30,7 +30,7 @@ const Header = () => {
           />
         </Link>
         <ul className="gap-[38px] flex items-center max-sm:hidden">
-          {HEADER_LIST.map((obj:HeaderItem, i:number) => (
+          {HEADER_LIST.map((obj: HeaderItem, i: number) => (
             <li key={i}>
               <Link
                 onClick={() => clickHandler(i)}
@@ -70,7 +70,7 @@ const Header = () => {
           }`}
         >
           <ul className="gap-5 flex flex-col items-center">
-            {HEADER_LIST.map((obj:HeaderItem, i:number) => (
+            {HEADER_LIST.map((obj: HeaderItem, i: number) => (
               <li key={i}>
                 <Link
                   onClick={() => setOpen(false)}

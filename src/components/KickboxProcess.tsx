@@ -32,7 +32,7 @@ const KickboxProcess = () => {
                 width={227}
                 height={92}
                 alt={obj.imageAlt}
-                className="mx-auto max-md:w-[150px] max-md:h-[60px]"
+                className="mx-auto max-md:w-[150px] max-md:h-[60px] pointer-events-none"
               />
               <div className="border border-black rounded-[28px] px-6 pt-8 max-sm:p-4 pb-[19px] mt-[39px] max-md:mt-7 max-sm:mt-4 h-full">
                 <p
