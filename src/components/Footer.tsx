@@ -1,7 +1,10 @@
 import { FOOTER_LIST } from "@/utils/helper";
 import Link from "next/link";
 import React from "react";
-
+interface FooterItem {
+    title: string;
+    link: string;
+}
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
@@ -42,7 +45,7 @@ const Footer = () => {
             <p className="font-black text-base mb-5 max-md:mb-2 text-white leading-[20.11px] tracking-[-0.22px]">
               Sitemap
             </p>
-            {FOOTER_LIST.map((item, index) => (
+            {FOOTER_LIST.map((item:FooterItem, index:number) => (
               <Link
                 href={item.link}
                 key={index}
