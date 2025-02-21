@@ -17,7 +17,7 @@ const Faq = () => {
   };
   return (
     <div className="pt-32 pb-[146px] max-md:py-20 max-sm:py-12 bg-lightGray">
-      <div className="max-w-[1172px] mx-auto px-4">
+      <div className="max-w-[1118px] mx-auto px-4">
         <Heading text="FAQs" myClass="pb-[9px]" />
         {FAQ_LIST.map((data: FaqItem, index: number) => (
           <div

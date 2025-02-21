@@ -24,9 +24,9 @@ const OurCommunity = () => {
       id="community"
       className="bg-lightGray pt-[129px] pb-[130px] max-md:py-20 max-sm:py-12"
     >
-      <div className="max-w-[1172px] px-4 mx-auto">
+      <div className="max-w-[1118px] px-4 mx-auto">
         <Heading text="WHAT OUR COMMUNITY SAYS" myClass="max-sm:!text-center" />
-        <div className="flex relative flex-col items-center justify-center pt-[140px] max-lg:pt-12 max-md:pt-8 max-sm:pt-5">
+        <div className="flex relative flex-col items-center justify-center pt-[130px] max-lg:pt-12 max-md:pt-8 max-sm:pt-5">
           <Swiper
             pagination={{
               clickable: true,
@@ -68,7 +68,7 @@ const OurCommunity = () => {
                     height={80}
                     width={80}
                     alt={obj.profileImageAlt}
-                    className="max-md:size-16"
+                    className="max-md:size-16 rounded-full"
                   />
                   <div>
                     <Description
