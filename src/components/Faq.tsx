@@ -4,33 +4,33 @@ import Heading from "./common/Heading";
 import Description from "./common/Description";
 import { FaqArrow } from "@/utils/icons";
 
-interface FaqItem{
+interface FaqItem {
   title: string;
   description: string;
 }
 
 const Faq = () => {
- const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(0);
 
- const toggleAccordion = (index: any) => {
-   setOpenIndex(openIndex === index ? false : index);
- };
+  const toggleAccordion = (index: any) => {
+    setOpenIndex(openIndex === index ? false : index);
+  };
   return (
     <div className="pt-32 pb-[146px] max-md:py-20 max-sm:py-12 bg-lightGray">
       <div className="max-w-[1172px] mx-auto px-4">
         <Heading text="FAQs" myClass="pb-[9px]" />
-        {FAQ_LIST.map((data:FaqItem, index: number) => (
+        {FAQ_LIST.map((data: FaqItem, index: number) => (
           <div
             key={index}
-            className="overflow-hidden min-h-[45px] border-b border-gray"
+            className="overflow-hidden min-h-[40px] border-b border-gray"
           >
             <button
               onClick={() => toggleAccordion(index)}
-              className="text-[21px] font-semibold leading-[21px] max-lg:text-xl max-md:text-lg text-start max-sm:text-base max-lg:leading-[18px] max-md:leading-[16px] max-sm:leading-[14px] flex justify-between items-center w-full py-2"
+              className="text-[21px] font-semibold leading-[21px] max-lg:text-xl max-md:text-lg text-start max-sm:text-base max-lg:leading-[18px] max-md:leading-[16px] max-sm:leading-[14px] flex justify-between items-center w-full py-3"
             >
               {data.title}
               <span
-                className={`ml-2 ${
+                className={`mx-3 ${
                   openIndex === index
                     ? "rotate-90 transition-all duration-300"
                     : "rotate-0 transition-all duration-300"
